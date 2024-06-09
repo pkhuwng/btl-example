@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="367.0" prefWidth="498.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.btlexample.screen.StatsViewController">
+   <children>
+      <Label layoutX="212.0" layoutY="14.0" text="Statistics">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <VBox layoutX="20.0" layoutY="57.0" prefHeight="253.0" prefWidth="478.0">
+         <children>
+            <Label fx:id="total" text="Total number of teacher: ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="male" text="Number of male teachers:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="female" text="Number of female teachers: ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="averageage" text="Average age of teachers: ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="superyoung" text="Number of teachers from 20-29:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="young" text="Number of teachers from 30-39: ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="midlife" text="Number of teachers from 40-49: ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="old" text="Number of teachers from 50+: ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="phd" text="Number of PhD teacher: ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <Button layoutX="233.0" layoutY="319.0" mnemonicParsing="false" onAction="#closeModal" text="OK" />
+   </children>
+</AnchorPane>
