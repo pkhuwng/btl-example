@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.btlexample.screen.LoginViewController">
+   <children>
+      <Label layoutX="280.0" layoutY="43.0" text="Login " />
+      <Label layoutX="59.0" layoutY="136.0" text="Username" />
+      <Label layoutX="59.0" layoutY="174.0" text="Password" />
+      <TextField fx:id="usernameField" layoutX="137.0" layoutY="133.0" prefHeight="26.0" prefWidth="436.0" />
+      <PasswordField fx:id="passwordField" layoutX="137.0" layoutY="171.0" prefHeight="26.0" prefWidth="436.0" />
+      <Button layoutX="273.0" layoutY="269.0" mnemonicParsing="false" onAction="#login" text="Login" />
+      <Label fx:id="validateLabel" layoutX="137.0" layoutY="214.0" />
+      <Label layoutX="195.0" layoutY="340.0" text="Don't have an account yet?" />
+      <Hyperlink fx:id="signUpRedir" layoutX="339.0" layoutY="337.0" onAction="#onSignupRedirClick" text="Click here" />
+   </children>
+</AnchorPane>
