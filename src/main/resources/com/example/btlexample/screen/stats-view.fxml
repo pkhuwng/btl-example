@@ -60,6 +60,7 @@
             </Label>
          </children>
       </VBox>
-      <Button layoutX="233.0" layoutY="319.0" mnemonicParsing="false" onAction="#closeModal" text="OK" />
+      <Button layoutX="279.0" layoutY="319.0" mnemonicParsing="false" onAction="#closeModal" text="OK" />
+      <Button layoutX="158.0" layoutY="319.0" mnemonicParsing="false" onAction="#viewChart" text="View chart" />
    </children>
 </AnchorPane>

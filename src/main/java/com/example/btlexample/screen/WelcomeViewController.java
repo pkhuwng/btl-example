@@ -122,6 +122,16 @@ public class WelcomeViewController {
         }
     }
 
+    public void add(ActionEvent event) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("addteacher-view.fxml"));
+        Stage stage = new Stage();
+        stage.setTitle("Add Teacher");
+        stage.setScene(new Scene(fxmlLoader.load()));
+        stage.initModality(Modality.WINDOW_MODAL);
+        stage.initOwner(welcomeScenePane.getScene().getWindow());
+        stage.showAndWait();
+    }
+
     private class EditCell extends TableCell<TeacherObject, Task> {
         Stage stage;
         Parent root;
